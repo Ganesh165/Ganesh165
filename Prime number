@@ -1,0 +1,19 @@
+#inchude<iostream>
+Using namespace std;
+int main()
+{
+   Int n,i=1;
+   Int count=0;
+   Cout<<"enter a number";
+   CIN>>n;
+   For(I=1;i<n/2;I++);
+   {
+      if(n%i==0)
+      {
+          Count++;
+          Cout<<"not prime";
+      }
+   }
+   If(count==0)
+   Cout<<"prime";
+}
