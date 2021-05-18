@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+   int num,pos;
+   cin<<num<<pos;
+   if(num&((pos-1)<<1))
+   {
+       cout<<"set state";
+    }
+    else
+    {
+        cout<<"not set state";
+    }
+    return 0;
+}    
