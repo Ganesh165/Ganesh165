@@ -1,0 +1,12 @@
+ #include<iostream>
+ using namespace std;
+ int main()
+ {
+    int num,pos,res;
+    cout<<"enter a number:";
+    cin>>num;
+    cout<<"enter a position:";
+    cin>>pos;
+    res=(num^((pos-1)<<1));
+    cout<<"result is:"<<res;
+ }    
