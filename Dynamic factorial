@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int d[100005];
+int fact()
+{
+    if(n<=1)
+    {
+        return 1;
+    }
+    if(n>1)
+    {
+        return d[n]=n*fact(n-1);
+    }
+}
+int mmain()
+{
+    int n;
+    ciin>>n;
+    for(int i=1;i<n;i++)
+    {
+        dp[i]=-1;
+    }
+    {
+        cout<<fact(n);
+    }
+     return 0;
+}
